@@ -17,4 +17,5 @@ Some ways to tackle it include :
       1. Refreshing the page
       2. Restarting the server
       3. Making a new live preview
+
 There is a dynamic piechart below the tables. To view it, you must have atleast one token of any kind.
