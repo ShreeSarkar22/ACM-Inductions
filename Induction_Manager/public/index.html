@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Induction Process Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <section id="First" class="gradient-background">
+        <div class="px-4 pt-4 pb-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold text-body-emphasis pt-4">Induction Manager</h1>
+        </div>
+    </section>
+    <section id = "Second">
+        <div class="px-4 pt-4 pb-5 text-center border-bottom">
+            <div class="container-fluid">
+                <div class="section alpha">
+                    <div class="reminder-container">
+                        <h2 id="Email">Send Email</h2>
+                        <form id="emailForm">
+                            <input class="emailint" type="text" id="subject" name="subject" placeholder="Enter Subject..." required>
+                            
+                            <br>
+                            <textarea id="message" name="message" required></textarea>
+                            <br>
+                            <br>
+                            <button class="emailbtn" type="submit">Send Email</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="section beta">
+                    <div class="reminder-container">
+                        <h2 id="Interview">Schedule Interview</h2>
+                        <form id="reminderForm">
+                            <input type="text" class="Interview" id="reminderMessage" placeholder="Enter Reminder Name..." required>
+                            
+                            <input type="date" class="Interview" id="reminderDate" placeholder="Choose Date..." required>
+
+                            <input type="time" class="Interview" id="reminderTime" placeholder="Choose Time..." required>
+                            <br>
+
+                            <button class="intbtn" type="submit">Set Reminder</button>
+                        </form>
+                        <br>
+                        <p id="reminderResponse"></p>
+                    </div>
+                </div>
+                <div class="section gamma">
+                    <div class="reminder-container">
+                        <h2 id="Info">New Applicant</h2>
+                        <form id="infoForm">
+                            <input type="text" class="Info" id="name" placeholder="Enter Name..." required>
+                            
+                            <input type="text" class="Info" id="id" placeholder="Enter ID..." required>
+
+                            <input type="email" class="Info" id="email" placeholder="Enter Email..." required>
+                            <br>
+
+                            <button class="infobtn" type="submit">Add Details</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Third">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Shree Suswaagatam Sarkar</span>
+              </div>
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">ACM Inductions
+                </li>
+              </ul>
+            </footer>
+          </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

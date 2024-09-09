@@ -1,0 +1,228 @@
+.gradient-background {
+    background: linear-gradient(300deg, #08D9D6, #EAEAEA, #FF2E63);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+  
+.section {
+    /*background-color: #31363F;*/
+    /*background-color: #222831;*/
+    /*background-color: #181D31;*/
+    background-color: #E0FBE2;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    flex: 1;
+    max-width: 100%;
+    border-radius: 8px;
+    /*box-shadow: #76ABAE 0 0 15px 8px;*/
+    box-shadow: #508D4E 0 0 15px 8px;
+}
+
+@media (max-width: 1060px) {
+    .container-fluid {
+      flex-direction: column;
+      height: auto;
+    }
+}
+
+.reminder-container {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.Interview{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(74, 59, 45, 0.834);
+    opacity: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(250, 246, 218);
+}
+
+
+#Interview{
+    color: #457c42;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+#Interview:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.intbtn{
+    background-color: rgba(234, 131, 28, 0.834);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 17px;
+    margin-top: 23px;
+}
+
+.intbtn:hover {
+    background-color:#185dcc83;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#Email{
+    color: #457c42;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+#Email:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.emailbtn{
+    background-color: rgba(234, 131, 28, 0.834);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 17px;
+    margin-top: 18px;
+}
+
+.emailbtn:hover {
+    background-color:#185dcc83;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+textarea{
+    height: 150px;
+    width: 350px;
+    /*background-color: #EEF7FF;*/
+    background-color: #F2FFE9;
+    max-width: 100%;
+}
+
+.emailint{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8d5d10;
+    opacity: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+#Second{
+    /*background-color: #021526;*/
+    /*background-color: #021526;*/
+    background-color: #BFF6C3;
+}
+
+#Info{
+    color: #457c42;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+
+#Info:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.Info{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(74, 59, 45, 0.834);
+    opacity: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+.infobtn{
+    background-color: rgba(234, 131, 28, 0.834);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 17px;
+    margin-top: 23px;
+}
+
+.infobtn:hover {
+    background-color:#185dcc83;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#First{
+    width: 100%;
+}
+
+#Third{
+    background-color: #a3d9ff31;
+}
+
+li{
+    color: rgba(0, 0, 0, 0.351);
+}
