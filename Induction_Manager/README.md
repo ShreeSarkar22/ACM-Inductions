@@ -21,6 +21,6 @@ Moreover, it will also make a copy of the email provided and save it in the emai
 The middle section has a feature to set reminders. After inputting the name of event, date and time, and clicking the button, it will set a reminder.
 An alert will show up when the time comes.
 
-The left section is for sending emails. You have to put in the subject of the email in the top input box and write the email in the textarea.
+The left section is for sending emails. You have to put in the subject of the email in the top input box and write the email in the text-area.
 When you click the button, it will automatically send emails to everyone whose email addresses were stored in the emails.txt. 
-After the mails are sucessfully sent, an alert will pop up.
+After the mails are successfully sent, an alert will pop up.
