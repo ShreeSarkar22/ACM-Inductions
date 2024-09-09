@@ -18,7 +18,7 @@ The main section is divided into 3 sections.
 The right most section has feature to take input the name , id number and email of a person. Upon clicking the button, it will save the details of the person in users.txt in proper format.
 Moreover, it will also make a copy of the email provided and save it in the emails.txt .
 
-The middle section has a feature to set reminders. After inputing the name of event, date and time, and clicking the button, it will set a reminder.
+The middle section has a feature to set reminders. After inputting the name of event, date and time, and clicking the button, it will set a reminder.
 An alert will show up when the time comes.
 
 The left section is for sending emails. You have to put in the subject of the email in the top input box and write the email in the textarea.
