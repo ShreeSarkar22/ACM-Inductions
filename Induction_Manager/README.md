@@ -6,7 +6,7 @@ IMPORTANT : In server.js ,  change the email to your email id and the password t
 This is a project to make a Induction Manager, to help in the induction process.
 It was made using HTML, CSS, JavaScipt , Node.js
 
-All the files should be the proper diretories, that is, index.html, style.css and script.js should be inside the "public" folder.
+All the files should be the proper directories, that is, index.html, style.css and script.js should be inside the "public" folder.
 server.js, emails.txt and useres.txt should be outside the "public" folder.
 
 Initially, emails.txt and users.txt are empty.
